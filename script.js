@@ -13,4 +13,5 @@ document.body.addEventListener('mouseup', function(e) {
 
 window.addEventListener('mousedown', function(e) {
   document.querySelector('.highlightMenu').classList.remove('highlightMenu--active');
+  
 },false);
