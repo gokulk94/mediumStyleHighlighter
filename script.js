@@ -9,7 +9,8 @@ document.body.addEventListener('mouseup', function(e) {
   } else {
     popup.classList.remove('highlightMenu--active');
   }
-});
-window.addEventListener('mousedown', function() {
+},false);
+
+window.addEventListener('mousedown', function(e) {
   document.querySelector('.highlightMenu').classList.remove('highlightMenu--active');
-})
+},false);
