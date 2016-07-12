@@ -6,7 +6,7 @@ p {
     display: none;
     z-index: 100;
     background-color: #262625;
-    padding: 5px;
+    /*padding: 5px;*/
     border-radius: 5px;
     color: #fff;
 }
@@ -50,7 +50,12 @@ ul {
 ul li:not(:last-child) {
     padding-right: 3px;
 }
-ul li:not(:last-child)::after {
-    content: "|";
-    padding-left: 3px;
+
+button {
+    border: 0;
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    padding: 9px;
 }
